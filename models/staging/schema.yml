@@ -1,0 +1,122 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: Staged data of orders.
+    columns:
+      - name: orderid
+        description: Order identifier
+      - name: customerid
+        description: Identifier of the customer who made the order
+      - name: employeeid
+        description: Identifier of the employee associated with the order
+      - name: orderdate
+        description: Date when the order was placed
+      - name: requireddate
+        description: Required delivery date for the order
+      - name: shippeddate
+        description: Date when the order was shipped
+      - name: shipperid
+        description: Identifier of the shipper for the order
+      - name: freight
+        description: Cost of freight for the order
+    
+  - name: stg_customers
+    description: Staged data of customers.
+    columns:
+      - name: customerid
+        description: Customer identifier
+      - name: companyname
+        description: Name of the customer's company
+      - name: contactname
+        description: Name of the contact person
+      - name: contacttitle
+        description: Title of the contact person
+      - name: city
+        description: City where the customer is located
+      - name: country
+        description: Country where the customer is located
+
+  - name: stg_employees
+    description: Staged data of employees.
+    columns:
+      - name: employeeid
+        description: Employee identifier
+      - name: employeename
+        description: Name of the employee
+      - name: title
+        description: Job title of the employee
+      - name: city
+        description: City where the employee is located
+      - name: country
+        description: Country where the employee is located
+      - name: reportsto
+        description: Employee to whom the person reports
+        
+  - name: stg_products
+    description: Staged data of products.
+    columns:
+      - name: productid
+        description: Product identifier
+      - name: productname
+        description: Name of the product
+      - name: supplierid
+        description: Supplier identifier
+      - name: categoryid
+        description: Category identifier
+      - name: quantityperunit
+        description: Quantity per unit of the product
+      - name: unitprice
+        description: Unit price of the product
+  
+  - name: stg_categories
+    description: Staged data of categories.
+    columns:
+      - name: categoryid
+        description: Category identifier
+        tests:
+          - not_null
+      - name: categoryname
+        description: Name of the category
+        tests:
+          - not_null
+      - name: description
+        description: Description of the category
+        tests:
+          - not_null
+  
+  - name: stg_order_details
+    description: Staged data of order details.
+    columns:
+      - name: orderid
+        description: Order identifier
+        tests:
+          - not_null
+      - name: productid
+        description: Product identifier
+        tests:
+          - not_null
+      - name: unitprice
+        description: Unit price of the product
+        tests:
+          - not_null
+      - name: quantity
+        description: Quantity ordered
+        tests:
+          - not_null
+      - name: discount
+        description: Discount applied
+        tests:
+          - not_null
+
+  - name: stg_shippers
+    description: Staged data of shippers.
+    columns:
+      - name: shipperid
+        description: Shipper identifier
+        tests:
+          - not_null
+      - name: companyname
+        description: Company name of the shipper
+        tests:
+          - not_null
