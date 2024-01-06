@@ -1,4 +1,4 @@
-# H1 Data Modeling with dbt Core and Snowflake
+# Data Modeling with dbt Core and Snowflake
 This project implements a complete data model for an e-commerce dataset using dbt Core and Snowflake. It transforms raw CSV data into a well-structured, analytics-ready model within two Snowflake databases: raw and analytics. 
 
 #The purpose;
