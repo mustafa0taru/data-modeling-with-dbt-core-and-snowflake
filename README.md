@@ -1,9 +1,11 @@
-#data_modeling_with_dbt_Core_and_Snowflake
+**Data Modeling with dbt Core and Snowflake**
 This project implements a complete data model for an e-commerce dataset using dbt Core and Snowflake. It transforms raw CSV data into a well-structured, analytics-ready model within two Snowflake databases: raw and analytics. 
 
 **The purpose;**
 "*" Transform raw CSV data into a well-structured, analytics-ready model accessible in Snowflake.
+
 "*" Enable efficient querying and analysis of e-commerce metrics like sales trends, customer behavior, and product performance.
+
 "*" Provide a foundation for building dashboards, reports, and further analytical models.
 
 Key features include:
