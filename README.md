@@ -8,9 +8,13 @@ This project implements a complete data model for an e-commerce dataset using db
 
 - Provide a foundation for building dashboards, reports, and further analytical models.
 
+## The proposed architechture
+![Untitled](https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake/assets/81088966/6e7ebadc-4779-4273-bdf1-17a4764e85f5)
+
 ## Key features include:
 
 - Stage area: Transforms and cleans raw data before loading into dimensions and facts.
+
 - Dimensional tables: Stores normalized attributes for customers, products, categories, shippers, and employees.
 - Fact tables: Aggregates sales data from orders and order details for analysis.
 - dbt Core: Automates model development, testing, and deployment for reliable data pipelines.
