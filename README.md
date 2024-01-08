@@ -34,22 +34,6 @@ This project implements a complete data model for an e-commerce dataset using db
 ## The Data Lineage Generated
 ![Screenshot 2024-01-05 043948](https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake/assets/81088966/bcfbf5c3-270c-48b1-8e03-2c6dfdd14665)
               
-## Getting Started
-
-Prerequisites:
-
-* dbt installed '''pip install dbt'''
-* Access to a Snowflake account with the necessary permissions
-### Set up:
-
-* Clone this repository '''https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake'''
-* Create a '''profiles.yml''' file in the project root directory and configure your Snowflake connection details.
-* Install any required packages '''dbt deps.
-### Running dbt:
-
-* To compile models: '''dbt compile'''
-* To run tests: '''dbt test'''
-* To build the entire project: '''dbt run'''
 
 ### Documentation:
 - Model descriptions and documentation can be found in the models directory.
