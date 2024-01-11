@@ -37,4 +37,4 @@ This project implements a complete data model for an e-commerce dataset using db
 
 ### Documentation:
 - Model descriptions and documentation can be found in the models directory.
-- For general dbt documentation, refer to https://docs.getdbt.com/.
+- For general dbt documentation, refer to https://docs.getdbt.com.
