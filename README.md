@@ -3,9 +3,7 @@ This project implements a complete data model for an e-commerce dataset using db
 
 ## The purpose;
 - Transform raw CSV data into a well-structured, analytics-ready model accessible in Snowflake.
-
 - Enable efficient querying and analysis of e-commerce metrics like sales trends, customer behavior, and product performance.
-
 - Provide a foundation for building dashboards, reports, and further analytical models.
 
 ## The architechture
