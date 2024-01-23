@@ -30,11 +30,7 @@ This project implements a complete data model for an e-commerce dataset using db
 
 ![ERP Diagram](https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake/assets/81088966/2cd1f422-b75f-4155-b290-e649876fddc1)
   The ERP Diagram
-
-## The Data Lineage Generated
-![Screenshot 2024-01-05 043948](https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake/assets/81088966/bcfbf5c3-270c-48b1-8e03-2c6dfdd14665)
               
-
 ### Documentation:
 - Model descriptions and documentation can be found in the models directory.
 - For general dbt documentation, refer to https://docs.getdbt.com.
