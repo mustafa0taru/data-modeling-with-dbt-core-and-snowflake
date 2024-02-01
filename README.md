@@ -6,6 +6,12 @@ This project implements a complete data model for an e-commerce dataset using db
 - Enable efficient querying and analysis of e-commerce metrics like sales trends, customer behavior, and product performance.
 - Provide a foundation for building dashboards, reports, and further analytical models.
 
+## Tools Used;
+- Snowflake
+- dbt Core
+- git
+- VS Code (IDE)
+
 ## The architechture
 ![Untitled](https://github.com/mustafa0taru/data_modeling_with_dbt_Core_and_Snowflake/assets/81088966/6e7ebadc-4779-4273-bdf1-17a4764e85f5)
 
