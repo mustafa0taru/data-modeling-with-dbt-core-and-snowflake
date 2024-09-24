@@ -1,10 +1,10 @@
 WITH source AS (
   SELECT
-    "PRODUCTID" as productid,
-    "PRODUCTNAME" as productname,
-    "CATEGORYID" as categoryid,
-    "QUANTITYPERUNIT" as quantityperunit,
-    "UNITPRICE" as unitprice
+    productid,
+    productname,
+    categoryid,
+    quantityperunit,
+    unitprice
   FROM {{ ref('stg_products') }}
 )
 

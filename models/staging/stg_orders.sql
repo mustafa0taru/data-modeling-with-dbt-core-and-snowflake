@@ -1,11 +1,3 @@
--- models/staging/stg_orders.sql
-
--- Set the materialization strategy for the model
-{{ config(
-  materialized='table'
-) }}
-
--- Your transformation logic here, for example:
 WITH orders AS (
   SELECT
     orderID,

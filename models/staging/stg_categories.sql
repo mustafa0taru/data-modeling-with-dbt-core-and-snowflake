@@ -1,7 +1,7 @@
--- models/staging/stg_categories.sql
 {{ config(
   materialized='table'
-) }}
+) 
+}}
 
 WITH categories AS (
   SELECT

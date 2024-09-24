@@ -1,8 +1,8 @@
 
 WITH source AS (
   SELECT
-    "SHIPPERID" as shipperid,
-    "COMPANYNAME" as companyname
+    shipperid,
+    companyname
   FROM {{ ref('stg_shippers') }}
 )
 

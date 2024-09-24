@@ -1,11 +1,11 @@
 WITH source AS (
   SELECT
-    "CUSTOMERID" as customerid,
-    "COMPANYNAME" as companyname,
-    "CONTACTNAME" as contactname,
-    "CONTACTTITLE" as contacttitle,
-    "CITY" as city,
-    "COUNTRY" as country
+    customerid,
+    companyname,
+    contactname,
+    contacttitle,
+    city,
+    country
   FROM {{ ref('stg_customers') }}
 )
 

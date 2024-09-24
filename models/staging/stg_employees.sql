@@ -1,14 +1,6 @@
--- models/staging/stg_employees.sql
-
--- Set the materialization strategy for the model
-{{ config(
-  materialized='table',
-) }}
-
--- Your transformation logic here, for example:
 WITH employees AS (
   SELECT
-    employeeid,
+    employeeid as employee_id,
     employeename,
     title,
     city,
