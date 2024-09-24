@@ -3,12 +3,11 @@
   materialized='table'
 ) }}
 
--- Your transformation logic here, for example:
 WITH categories AS (
   SELECT
-    "CATEGORYID" as categoryid,
-    "CATEGORYNAME" as categoryname,
-    "DESCRIPTION" as description
+    categoryid as category_id,
+    categoryname as category_name,
+    description
   FROM {{ source('raw', 'categories') }}
 )
 
