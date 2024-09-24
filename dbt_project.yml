@@ -20,7 +20,9 @@ clean-targets:
 models:
   dbt_ecommerce:
     staging:
+      +materialized: view
+    facts:
       +materialized: table
-      schema: ecommerce
+
 
 
